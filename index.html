@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Krishna Pawar — Video Editor</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Fraunces:opsz,wght@9..144,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BACKGROUND
+    ====================================================== -->
+
+    <div id="bg">
+        <img
+            id="media"
+            src="assets/images/background2.jpg"
+            alt="Background"
+        >
+
+        <div class="video-overlay"></div>
+    </div>
+
+    <div id="glow"></div>
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <nav>
+
+        <a href="#home" class="logo">
+            <b>K▶</b>
+            <span>Krishna Pawar</span>
+        </a>
+
+        <ul id="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <input
+            id="q"
+            type="search"
+            placeholder="Search…"
+            aria-label="Search"
+        >
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            type="button"
+        >
+            ☰
+        </button>
+
+    </nav>
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <div> 
+            <h1>
+            Hi I am
+            <span>Krishna</span>
+            </h1>
+             <p class="eyebrow">
+                <i></i>
+                 AVAILABLE FOR NEW PROJECTS
+            </p>    
+        </div>
+            <h2>
+                Edits that make
+                <span>people stop scrolling.</span>
+            </h2>
+
+            <p class="hero-description">
+                Video editor focused on cinematic storytelling,
+                short-form content, motion, and edits that hold
+                attention from the first frame to the last.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a class="btn" href="#work">
+                    Watch my work
+                </a>
+
+                <a class="btn outline" href="#contact">
+                    Hire me
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             AVATAR
+        ================================================== -->
+
+        <div
+            class="avatar-reveal"
+            id="avatarReveal"
+        >
+
+            <img
+                src="assets/avatars/avatar1.png"
+                alt="Krishna Pawar"
+                class="avatar avatar-one"
+            >
+
+            <div class="avatar-two-wrapper">
+
+                <img
+                    src="assets/avatars/avatar2.png"
+                    alt="Krishna Pawar"
+                    class="avatar avatar-two"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         BACKGROUND CONTROLS
+    ====================================================== -->
+
+    <div class="video-controls">
+
+        <button id="videoToggle" type="button">
+            ❚❚
+        </button>
+
+        <button id="soundToggle" type="button">
+            🔇
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         STATS
+    ====================================================== -->
+
+    <div class="stats">
+
+        <div class="stat">
+            <strong>50+</strong>
+            <span>Projects</span>
+        </div>
+
+        <div class="stat">
+            <strong>3+</strong>
+            <span>Years Editing</span>
+        </div>
+
+        <div class="stat">
+            <strong>100%</strong>
+            <span>Creative</span>
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MARQUEE
+    ====================================================== -->
+
+    <div class="mq">
+        CUT • GRADE • MIX • MOTION • STORY •
+        CUT • GRADE • MIX • MOTION • STORY •
+    </div>
+
+
+    <!-- =====================================================
+         MAIN WORK
+    ====================================================== -->
+
+    <section id="work">
+
+        <div class="work-header">
+
+            <span class="work-label">
+                SELECTED WORK
+            </span>
+
+            <h2>
+                My <span>Work.</span>
+            </h2>
+
+            <p>
+                A selection of edits focused on cinematic storytelling,
+                motion, and attention-grabbing visuals.
+            </p>
+
+        </div>
+
+
+        <!-- MAIN VIDEO -->
+
+        <div class="main-video-container">
+
+            <video
+                id="mainWorkVideo"
+                src="assets/videos/portfolio.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+                controls
+            ></video>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FEATURED VIDEOS
+    ====================================================== -->
+
+    <section
+        id="featured-videos"
+        class="featured-videos"
+    >
+
+        <h2 class="rv">
+            Featured Work
+        </h2>
+
+
+        <div class="video-grid">
+
+
+            <!-- VIDEO 1 -->
+
+            <div class="video-card">
+
+                <video
+                    src="assets/videos/portfolio.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                ></video>
+
+                <div class="video-title">
+                    <h3>Portfolio</h3>
+                    <span>Edit</span>
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO 2 -->
+
+            <div class="video-card">
+
+                <video
+                    src="assets/videos/caption.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                ></video>
+
+                <div class="video-title">
+                    <h3>Captions</h3>
+                    <span>Edit</span>
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO 3 -->
+
+            <div class="video-card">
+
+                <video
+                    src="assets/videos/wedding.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                ></video>
+
+                <div class="video-title">
+                    <h3>Wedding</h3>
+                    <span>Edit</span>
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO 4 -->
+
+            <div class="video-card">
+
+                <video
+                    src="assets/videos/delivery.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    controls
+                ></video>
+
+                <div class="video-title">
+                    <h3>Car Delivery</h3>
+                    <span>Edit</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SKILLS
+    ====================================================== -->
+
+    <section id="skills">
+
+        <h2 class="rv">
+            Skills
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Video Editing</h3>
+                <p>
+                    Clean cuts, pacing, transitions,
+                    storytelling and retention-focused edits.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Color Grading</h3>
+                <p>
+                    Cinematic colors, contrast,
+                    skin tones and visual consistency.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Motion Graphics</h3>
+                <p>
+                    Dynamic text, motion elements,
+                    effects and visual transitions.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Sound Design</h3>
+                <p>
+                    Music selection, sound effects,
+                    audio transitions and mixing.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     FLYERS & BANNERS
+========================= -->
+<section id="design-work" class="design-section">
+
+    <div class="design-header">
+        <span class="design-label">DESIGN WORK</span>
+
+        <h2>
+            Flyers & <span>Banners.</span>
+        </h2>
+
+        <p>
+            A collection of promotional flyers, banners and creative designs
+            made to grab attention.
+        </p>
+    </div>
+
+    <div class="design-cards">
+
+        <!-- CARD 1 -->
+        <div class="design-card card-1">
+            <img src="assets/images/image3.png" alt="Flyer design 1">
+            <div class="design-card-overlay">
+                <span>01</span>
+                <h3>Creative Flyer</h3>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="design-card card-2">
+            <img src="assets/images/image4.jpeg" alt="Flyer design 2">
+            <div class="design-card-overlay">
+                <span>02</span>
+                <h3>Promotional Banner</h3>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="design-card card-3">
+            <img src="assets/images/image1.jpg" alt="Flyer design 3">
+            <div class="design-card-overlay">
+                <span>03</span>
+                <h3>Social Media Design</h3>
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="design-card card-4">
+            <img src="assets/images/image2.jpg" alt="Flyer design 4">
+            <div class="design-card-overlay">
+                <span>04</span>
+                <h3>Event Banner</h3>
+            </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="design-card card-5">
+            <img src="assets/images/flyer5.jpg" alt="Flyer design 5">
+            <div class="design-card-overlay">
+                <span>05</span>
+                <h3>Poster Design</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+    
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+
+    <section id="contact">
+
+        <h2 class="rv">
+            Let's create something.
+        </h2>
+
+        <p>
+            Have a project in mind?
+            Let's talk about it.
+        </p>
+
+        <div class="contact-buttons">
+
+            <a
+                class="btn"
+                href="mailto:your@email.com"
+            >
+                Email Me
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Krishna Pawar.
+            All rights reserved.
+        </p>
+
+        <p>
+            Video Editor
+        </p>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
